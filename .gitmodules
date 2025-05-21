@@ -1,3 +1,6 @@
 [submodule "game-2048"]
 	path = game-2048
 	url = https://github.com/Noe-Sanchez/game-2048.git
+[submodule "full-stack"]
+	path = full-stack
+	url = https://github.com/wkrzywiec/kanban-board.git
