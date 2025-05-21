@@ -2,6 +2,8 @@ FROM ros:humble
 
 SHELL ["/bin/bash", "-c"]
 
+RUN apt update && apt install ros-humble-rviz2 ros-humble-foxglove-bridge -y 
+
 COPY ./src /root/
 
 WORKDIR /root
